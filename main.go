@@ -20,7 +20,7 @@ func handler(ctx context.Context, event MyEvent) error {
 	svc := sns.New(sess)
 
 	// Define the SNS topic ARN
-	topicArn := "arn:aws:sns:us-east-1:509344471761:lamda"
+	topicArn := "arn:aws:sns:us-east-1:509344471761:lambda3"
 
 	// Prepare the message to be sent
 	message := event.Message
